@@ -1,0 +1,5 @@
+pyinstaller --onefile --windowed --icon=carIcon.png --add-data "racecar.png;." --add-data "carIcon.png;." 1.py
+该指令为打包成为一个程序，在powershell里面运行
+rm -r build, dist, 1.spec
+该指令为回退错误，重新打包前用
+pip list 可以查看所用的包
